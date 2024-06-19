@@ -63,7 +63,7 @@ local function CreateGUI(title)
         frame.Size.Y.Offset - 0.25 * frame.Size.Y.Offset)
     disagreeButton.BackgroundTransparency = 0
     disagreeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    disagreeButton.Text = "我不想封号😨"
+    disagreeButton.Text = "否"
     disagreeButton.TextColor3 = Color3.new(255, 0, 0)
     disagreeButton.TextSize = math.floor(frame.Size.Y.Offset * 0.08)
     disagreeButton.Font = Enum.Font.SourceSans
@@ -79,7 +79,7 @@ local function CreateGUI(title)
         frame.Size.Y.Offset - 0.25 * frame.Size.Y.Offset)
     agreeButton.BackgroundTransparency = 0
     agreeButton.BackgroundColor3 = Color3.fromRGB(106, 159, 255)
-    agreeButton.Text = "我要进入"
+    agreeButton.Text = "是"
     agreeButton.TextColor3 = Color3.new(255, 255, 255)
     agreeButton.TextSize = math.floor(frame.Size.Y.Offset * 0.08)
     agreeButton.Font = Enum.Font.SourceSans 
@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.如果你的账号被封了，请勿怪小凌中心.\n 2.每天一更.\n 3.小凌中心永久免费，请勿圈钱."
+    agreeFrame.Text = "1.更新了注入器,破解林脚本,空脚本.\n 2.作者QQ：1211373508.\n 3.小凌中心永久免费,请勿圈钱."
     agreeFrame.TextWrapped = true
 
     
@@ -168,5 +168,5 @@ local function CreateGUI(title)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/Xiao-Ling-1.5/main/%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC.Lua"))()
     end)
 end
-local myTitle = "小凌中心协议" 
+local myTitle = "是否加入小凌中心？" 
 CreateGUI(myTitle)

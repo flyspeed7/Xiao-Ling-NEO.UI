@@ -2,7 +2,7 @@ local UserInputService = game:GetService("UserInputService")
 
 local function CreateGUI(title)
     local gui = Instance.new("ScreenGui")
-    gui.Name = "MyGUI"
+    gui.Name = "小凌-GUI"
     gui.ResetOnSpawn = false
     gui.DisplayOrder = 10
     gui.Parent = game.Players.LocalPlayer.PlayerGui
@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.更新了注入器,破解林脚本,空脚本.\n 2.作者QQ：1211373508.\n 3.小凌中心永久免费,请勿圈钱."
+    agreeFrame.Text = "1.更新：战斗大亨,汽车破坏机+.\n 2.作者QQ：1211373508.\n 3.小凌中心永久免费,请勿圈钱. \n 4.今日已更新!"
     agreeFrame.TextWrapped = true
 
     
@@ -112,7 +112,7 @@ local function CreateGUI(title)
     minimizeButton.Position = UDim2.new(1, -65, 0, 10)
     minimizeButton.BackgroundTransparency = 0
     minimizeButton.BackgroundColor3 = Color3.fromRGB(199, 199, 199)
-    minimizeButton.Text = "-"
+    minimizeButton.Text = "收"
     minimizeButton.TextSize = 28  
     minimizeButton.TextColor3 = Color3.new(0, 0, 0)
     minimizeButton.Font = Enum.Font.SourceSans
@@ -168,5 +168,5 @@ local function CreateGUI(title)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/Xiao-Ling-1.5/main/%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC%E5%B0%8F%E5%87%8C%E8%84%9A%E6%9C%AC.Lua"))()
     end)
 end
-local myTitle = "是否加入小凌中心？" 
+local myTitle = "₪是否加入小凌中心？" 
 CreateGUI(myTitle)

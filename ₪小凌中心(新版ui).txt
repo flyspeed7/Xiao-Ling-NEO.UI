@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.更新：黑火药,猫脚本.\n 2.作者QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.6.24日23:31时."
+    agreeFrame.Text = "1.更新：好看启动ui、增加了可玩性、优化了UIBug.\n 2.作者QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.6.26日19:59时."
     agreeFrame.TextWrapped = true
 
     
@@ -137,7 +137,7 @@ local function CreateGUI(title)
         else
             frame.Size = UDim2.new(0, 500, 0, 60)
             titleLabel.Position = UDim2.new(0, 0, 0, 0)
-            minimizeButton.Text = "+"
+            minimizeButton.Text = "开"
             minimizeButton.TextSize = 28 
             isMinimized = true
             disagreeButton.Visible = false

@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.好看的页面ui、服务器选项.\n 2.作者QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.6.28日12:06时."
+    agreeFrame.Text = "1.好看的页面ui、更多脚本...\n 2.作者QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.6.30日16:15时."
     agreeFrame.TextWrapped = true
 
     
@@ -165,8 +165,8 @@ local function CreateGUI(title)
     end)
     agreeButton.MouseButton1Click:Connect(function()
         AnimateExit()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/XiaoLing-QiDong/main/%E5%88%B6%E4%BD%9C.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/XiaoLing-UwU/main/%E5%86%AC%E5%87%8C%E4%B8%AD%E5%BF%83(%E5%B7%B2%E6%81%A2%E5%A4%8D).XiaoLing.Lua"))()
     end)
 end
-local myTitle = "是否进入冬凌中心启动器？" 
+local myTitle = "是否进入冬凌中心？" 
 CreateGUI(myTitle)

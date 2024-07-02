@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.好看的页面ui、更多脚本...\n 2.作者QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.6.30日16:15时."
+    agreeFrame.Text = "1.武器库、CW、有问题的UI.\n 2.作者QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.7.2日20:16时."
     agreeFrame.TextWrapped = true
 
     

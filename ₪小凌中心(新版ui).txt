@@ -63,7 +63,7 @@ local function CreateGUI(title)
         frame.Size.Y.Offset - 0.25 * frame.Size.Y.Offset)
     disagreeButton.BackgroundTransparency = 0
     disagreeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    disagreeButton.Text = "否"
+    disagreeButton.Text = "否👎"
     disagreeButton.TextColor3 = Color3.new(255, 0, 0)
     disagreeButton.TextSize = math.floor(frame.Size.Y.Offset * 0.08)
     disagreeButton.Font = Enum.Font.SourceSans
@@ -79,7 +79,7 @@ local function CreateGUI(title)
         frame.Size.Y.Offset - 0.25 * frame.Size.Y.Offset)
     agreeButton.BackgroundTransparency = 0
     agreeButton.BackgroundColor3 = Color3.fromRGB(106, 159, 255)
-    agreeButton.Text = "是"
+    agreeButton.Text = "是👍"
     agreeButton.TextColor3 = Color3.new(255, 255, 255)
     agreeButton.TextSize = math.floor(frame.Size.Y.Offset * 0.08)
     agreeButton.Font = Enum.Font.SourceSans 
@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.武器库、CW、有问题的UI.\n 2.作者QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.7.2日20:16时."
+    agreeFrame.Text = "1.SCP角色演扮.\n 2.缝合=.加我QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.7.4日00:13时."
     agreeFrame.TextWrapped = true
 
     
@@ -165,7 +165,7 @@ local function CreateGUI(title)
     end)
     agreeButton.MouseButton1Click:Connect(function()
         AnimateExit()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/XiaoLing-UwU/a9dac1a66777132708443ee30ff39ce1ea0a6b47/%E5%86%AC%E5%87%8C%E4%B8%AD%E5%BF%83(%E5%B7%B2%E6%81%A2%E5%A4%8D).XiaoLing.Lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/XiaoLing-UwU/main/%E5%86%AC%E5%87%8C%E4%B8%AD%E5%BF%83(%E5%B7%B2%E6%81%A2%E5%A4%8D).XiaoLing.Lua"))()
     end)
 end
 local myTitle = "是否进入冬凌中心？" 

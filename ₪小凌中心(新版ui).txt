@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.SCP角色演扮.\n 2.缝合=.加我QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.7.4日00:13时."
+    agreeFrame.Text = "1.老大出租车.\n 2.缝合=.加我QQ：1211373508.\n 3.冬凌中心永久免费,请勿圈钱. \n 4.更新时间：2024.7.6日8:27时."
     agreeFrame.TextWrapped = true
 
     
